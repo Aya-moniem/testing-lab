@@ -1,0 +1,6 @@
+<div class="container">
+    <div class="parent mx-auto border border-danger m-3">
+        <app-todo-form (sendTodoValue) ="receiveTodovalue($event)" ></app-todo-form>
+        <app-todo-list [list] = "todolistArr"></app-todo-list>
+    </div>
+</div>
